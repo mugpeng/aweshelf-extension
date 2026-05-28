@@ -6,11 +6,11 @@ Official extensions for [aweshelf](https://github.com/Webioinfo01/aweshelf) — 
 
 | Extension | Description | Install |
 |-----------|-------------|---------|
-| [vscode](./vscode) | Browse, search, edit, and resume bookmarks from VS Code | [Marketplace](https://marketplace.visualstudio.com/items?itemName=webioinfo.aweshelf) · [VSIX](https://github.com/Webioinfo01/aweshelf-extension/releases) |
+| [vscode](./vscode) | Browse, search, edit, and resume bookmarks from VS Code | [Marketplace](https://marketplace.visualstudio.com/items?itemName=webioinfo.aweshelf) · [VSIX](https://github.com/mugpeng/aweshelf-extension/releases) |
 
 ## Install VSIX manually
 
-Download the `.vsix` file from [Releases](https://github.com/Webioinfo01/aweshelf-extension/releases), then:
+Download the `.vsix` file from [Releases](https://github.com/mugpeng/aweshelf-extension/releases), then:
 
 ```bash
 code --install-extension aweshelf-<version>.vsix

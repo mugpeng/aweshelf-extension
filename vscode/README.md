@@ -13,7 +13,7 @@ Browse, search, edit, and resume aweshelf AI coding session bookmarks from VS Co
 
 ### From VSIX file
 
-1. Download the `.vsix` file from [GitHub Releases](https://github.com/Webioinfo01/aweshelf/releases)
+1. Download the `.vsix` file from [GitHub Releases](https://github.com/mugpeng/aweshelf-extension/releases)
 2. In VS Code: Ctrl+Shift+P → **Extensions: Install from VSIX...**
 3. Select the downloaded `.vsix` file
 
@@ -61,7 +61,6 @@ code --install-extension aweshelf-0.0.1.vsix
 ## Development
 
 ```bash
-cd extensions/vscode
 npm install
 npm run compile
 ```

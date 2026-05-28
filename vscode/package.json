@@ -7,11 +7,11 @@
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Webioinfo01/aweshelf.git",
-    "directory": "extensions/vscode"
+    "url": "https://github.com/mugpeng/aweshelf-extension.git",
+    "directory": "vscode"
   },
   "bugs": {
-    "url": "https://github.com/Webioinfo01/aweshelf/issues"
+    "url": "https://github.com/mugpeng/aweshelf-extension/issues"
   },
   "homepage": "https://github.com/Webioinfo01/aweshelf",
   "icon": "resources/aweshelf.svg",

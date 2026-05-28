@@ -51,7 +51,7 @@
     "onCommand:aweshelf.removeBookmark",
     "onCommand:aweshelf.resumeBookmarkWithProfile",
     "onCommand:aweshelf.resumeBookmarkRaw",
-    "onCommand:aweshelf.resumeBookmark",
+    "onCommand:aweshelf.resumeBookmark"
   ],
   "main": "./out/src/extension.js",
   "scripts": {
@@ -162,7 +162,7 @@
         "command": "aweshelf.resumeBookmark",
         "title": "Aweshelf: Resume Bookmark",
         "icon": "$(debug-start)"
-      },
+      }
     ],
     "viewsContainers": {
       "activitybar": [

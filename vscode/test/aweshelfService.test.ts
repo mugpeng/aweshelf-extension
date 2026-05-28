@@ -2,11 +2,9 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import {
-  buildBookmarkCurrentArgs,
   buildBookmarkSessionArgs,
   buildEditArgs,
   buildListArgs,
-  buildProfilesArgs,
   buildRemoveArgs,
   buildResumeArgs,
   buildResumeDryRunArgs,
@@ -35,10 +33,6 @@ test("buildVersionArgs checks aweshelf availability without reading user data", 
 
 test("buildResumeArgs targets the selected bookmark", () => {
   assert.deepEqual(buildResumeArgs("aweshelf_0001"), ["resume", "aweshelf_0001"]);
-});
-
-test("buildBookmarkCurrentArgs bookmarks the current project session", () => {
-  assert.deepEqual(buildBookmarkCurrentArgs(), ["bookmark", "--current"]);
 });
 
 test("buildBookmarkSessionArgs adds non-interactive metadata fields", () => {
@@ -81,11 +75,6 @@ test("buildRemoveArgs removes without prompting", () => {
 test("buildSessionsArgs requests JSON sessions with optional limit", () => {
   assert.deepEqual(buildSessionsArgs(10), ["sessions", "--json", "--limit", "10"]);
   assert.deepEqual(buildSessionsArgs(0), ["sessions", "--json", "--limit", "0"]);
-});
-
-test("buildProfilesArgs requests JSON profiles with optional provider", () => {
-  assert.deepEqual(buildProfilesArgs(), ["profiles", "--json"]);
-  assert.deepEqual(buildProfilesArgs("claude"), ["profiles", "--json", "--provider", "claude"]);
 });
 
 test("buildResumeDryRunArgs includes profile override and raw mode", () => {

@@ -13,8 +13,7 @@
   "bugs": {
     "url": "https://github.com/mugpeng/aweshelf-extension/issues"
   },
-  "homepage": "https://github.com/Webioinfo01/aweshelf",
-  "icon": "resources/aweshelf.svg",
+  "homepage": "https://github.com/mugpeng/aweshelf-extension",
   "engines": {
     "vscode": "^1.85.0"
   },

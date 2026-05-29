@@ -1,8 +1,8 @@
 {
-  "name": "aweshelf",
-  "displayName": "Aweshelf Bookmarks",
+  "name": "aweshelf-ext",
+  "displayName": "Aweshelf",
   "description": "Browse, search, and resume aweshelf AI coding session bookmarks from VS Code.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "webioinfo",
   "license": "MPL-2.0",
   "repository": {

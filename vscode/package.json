@@ -1,9 +1,10 @@
 {
   "name": "aweshelf-ext",
-  "displayName": "Aweshelf",
+  "displayName": "aweshelf-ext",
   "description": "Browse, search, and resume aweshelf AI coding session bookmarks from VS Code.",
   "version": "0.0.2",
   "publisher": "webioinfo",
+  "icon": "resources/aweshelf-icon.png",
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
@@ -168,7 +169,7 @@
         {
           "id": "aweshelf",
           "title": "Aweshelf",
-          "icon": "resources/aweshelf.svg"
+          "icon": "resources/aweshelf-icon.svg"
         }
       ]
     },

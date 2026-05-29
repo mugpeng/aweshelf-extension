@@ -27,8 +27,11 @@ jobs:
         run: npx vsce package
 
       - name: Publish to VS Code Marketplace
+        if: env.VSCE_PAT != ''
         working-directory: vscode
         run: npx vsce publish --pat ${{ secrets.VSCE_PAT }}
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
